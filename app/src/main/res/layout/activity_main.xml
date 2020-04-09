@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#80c1ff">
+
+
+    <Button
+        android:id="@+id/rollbutton"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="167dp"
+        android:background="#ffffff"
+        android:text="Roll" />
+
+    <ImageButton
+        android:id="@+id/rightdice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="314dp"
+        app:srcCompat="@drawable/dice3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="218dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="552dp"
+        android:text="Welcome to Dice game"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/leftdice"
+        android:layout_width="176dp"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="305dp"
+        app:srcCompat="@drawable/dice5" />
+</RelativeLayout>
